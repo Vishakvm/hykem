@@ -8,7 +8,7 @@ export default function Home() {
                 <div className="row">
                     <div className="col-md-6 hukemdiv d-flex justify-content-between flex-column p-3 p-md-5">
                         <div className="text-white">
-                            <img src="/img/hykem.png" alt="" className="img-fluid pb-5 pt-3" />
+                            <div className="pb-5"><a href="/"><img src="/img/hykem.png" alt="hykem Logo" className="img-fluid" /></a></div>
                             <p>A global chemical company specializing in the sourcing, development and manufacture of eco-friendly, low-hazard, technically advanced chemical systems.</p>
                             <p className="py-2">Founded on the principle of researching and developing safer, eco-friendly chemical technologies, our team of master’s degree chemists, PhD scientists, engineers and operational experts are committed to a better, cleaner future. Hykem has manufacturing facilities and partnerships strategically positioned in key markets around the world.</p>
                             <p className="py-2">The corporate research and manufacturing facilities are a hub of innovation and superior quality manufacturing. High standards of quality are evidenced by facility design, detailed operational procedures, optimization of production, controls over labelling and packaging, and post-sale customer care commitment.</p>

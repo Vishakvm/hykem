@@ -1,13 +1,15 @@
 import React from "react";
 import Layout from "./components/Layout";
+import { Helmet } from "react-helmet"
 
 export default function Home() {
   return (
     <Layout>
+  
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-4 hykembg d-flex justify-content-between flex-column p-3 p-md-5">
-            <div><img src="/img/hykem.png" alt="" className="img-fluid" /></div>
+            <div><a href="/"><img src="/img/hykem.png" alt="hykem Logo" className="img-fluid" /></a></div>
             <div className="text-white wrapper-text">
               <h2>
                 Sustainable,<br />
@@ -16,7 +18,7 @@ export default function Home() {
                 Innovative<br />
                 <span className="font-lg">Chemical Products</span>
               </h2>
-              <div className="text-end pe-5 me-3 pt-2">
+              <div className="text-end pe-5 me-3 pt-2 cta">
                 <a href="/product" className="text-white">Know More</a>
               </div>
             </div>
