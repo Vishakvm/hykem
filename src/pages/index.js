@@ -5,10 +5,13 @@ import { Helmet } from "react-helmet"
 export default function Home() {
   return (
     <Layout>
-  
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Hykem - Advanced and Innovative Chemical Products</title>
+      </Helmet>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-md-4 hykembg d-flex justify-content-between flex-column p-3 p-md-5">
+          <div className="col-md-4 hykembg d-flex justify-content-between flex-column p-4 p-md-5">
             <div><a href="/"><img src="/img/hykem.png" alt="hykem Logo" className="img-fluid" /></a></div>
             <div className="text-white wrapper-text">
               <h2>
@@ -26,7 +29,7 @@ export default function Home() {
               <p className="m-0">A Division Of Icon <span className="font-lg">Maritime Technology Group</span></p>
             </div>
           </div>
-          <div className="col-md-8 hykem d-none d-md-block"></div>
+          <div className="col-md-8 hykem"></div>
         </div>
       </div>
     </Layout>

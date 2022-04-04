@@ -18,6 +18,8 @@ body{
     height: calc(100vh - 3rem);
     background-repeat: no-repeat;
 }
+
+
 .hukemdiv{
     background-image: url("/img/green-bg.png");
     background-size: cover;
@@ -50,4 +52,17 @@ a {
 hr{
     height:3px !important;
     opacity: 1 !important;
+}
+
+@media(max-width:576px){
+    .hykembg{
+        height: 70vh;
+    }
+    .hykem{
+        height:40vh;
+    }
+    .hykem-product{
+      height:400px;
+    }
+    
 }
