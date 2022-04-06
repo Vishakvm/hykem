@@ -12,7 +12,7 @@ export default function Home() {
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-4 hykembg d-flex justify-content-between flex-column p-4 p-md-5">
-            <div><a href="/"><img src="/img/hykem.png" alt="hykem Logo" className="img-fluid" /></a></div>
+            <div><a href="/"><img src="/img/hykem-logo.svg" alt="hykem Logo" className="img-fluid" /></a></div>
             <div className="text-white wrapper-text">
               <h2>
                 Sustainable,<br />
