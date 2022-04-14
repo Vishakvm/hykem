@@ -13,7 +13,7 @@ body{
     font-family:'gothamrounded-bold';
 }
 .hykembg{
-    background-image: url("/img/green-bg.png");
+    background-color: #008A51;
     background-size: cover;
     height: calc(100vh - 3rem);
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@ body{
 
 
 .hukemdiv{
-    background-image: url("/img/green-bg.png");
+    background-color: #008A51;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -46,7 +46,7 @@ a {
     text-decoration: none;
 }
 .cta a{
-    border-bottom: 2px solid #fff;
+    // border-bottom: 2px solid #fff;
 }
 
 hr{
@@ -65,4 +65,8 @@ hr{
       height:400px;
     }
     
+}
+
+.ZIndex{
+  z-index:99999!important;
 }
