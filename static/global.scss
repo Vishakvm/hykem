@@ -1,0 +1,142 @@
+@font-face {
+    font-family:"gothamrounded-bold";
+    src: url("./fonts/gothamrounded-bold.otf");
+}
+@font-face {
+    font-family:"gothamrounded-book";
+    src: url("./fonts/gothamrounded-book.otf");
+}
+body{
+    font-family: "gothamrounded-book";
+}
+.font-lg{
+    font-family:'gothamrounded-bold';
+}
+.hykembg{
+    background-color: #008A51;
+    background-size: cover;
+    height: calc(100vh - 3rem);
+    background-repeat: no-repeat;
+}
+
+
+.hukemdiv{
+    background-color: #008A51;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hykem{
+    background-image: url("/img/hykem-bg.png");
+    background-size: cover;
+    height: calc(100vh - 3rem);
+    background-repeat: no-repeat;
+}
+.hykem-product{
+    background-image: url("/img/product.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrapper-text h2{
+    line-height: 45px;
+}
+.text-sm{
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+}
+.cta a{
+    border-bottom: 2px solid #fff;
+}
+
+hr{
+    height:3px !important;
+    opacity: 1 !important;
+}
+
+@media(max-width:576px){
+    .hykembg{
+        height: 70vh;
+    }
+    .hykem{
+        height:40vh;
+    }
+    .hykem-product{
+      height:400px;
+    }
+    
+}
+
+.bubble {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #006239;
+    position: absolute;
+    top:100px;
+    opacity: 1;
+    z-index: 999;
+    animation: bubble 10s ease-in-out infinite alternate,
+      sideWays 10s ease-in-out infinite alternate;
+  }
+
+@keyframes bubble {
+    0% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(200px);
+    }
+  }
+  
+  @keyframes sideWays {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: 100px;
+    }
+  }
+  
+  .bubble--1 {
+    left: 10%;
+    animation-delay: 0.5s;
+    opacity: 1;
+    top:10%
+  }
+  
+  .bubble--2 {
+    width: 15px;
+    height: 15px;
+    left: 40%;
+    animation-delay: 1s;
+    animation-duration: 10s;
+    opacity: 1;
+    top:20%
+  }
+  
+  .bubble--3 {
+    width: 10px;
+    height: 10px;
+    left: 30%;
+    animation-delay: 5s;
+    opacity: 1;
+    top:30%
+  }
+  
+  .bubble--4 {
+    width: 25px;height: 25px;
+    left: 55%;
+    animation-delay: 8s;
+    opacity: 1;
+    top:40%
+  }
+  .bubble--5 {
+    width: 25px;height: 25px;
+    left: 75%;
+    animation-delay: 8s;
+    opacity: 1;
+    top:35%
+  }
+  
